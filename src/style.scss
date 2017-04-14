@@ -1,0 +1,37 @@
+#root{
+  font-size: 16px;
+}
+.header{
+  border: 1px solid #00ffcf;
+  background-color: rgba(22, 213, 177, 0.42);
+}
+
+
+
+img {
+  max-height: 20px;
+  max-width: 20px;
+  border-radius: 50%;
+  border: 1px solid #00ffcf;
+}
+
+
+
+.header{
+  min-height: 40px;
+}
+@media all and (max-width: 350px){
+  #root{
+    font-size: 10px;
+  }
+}
+.col-xs-3, .col-xs-1, .col-xs-5{
+  padding-right: 0px !important;
+}
+.user:nth-child(even){
+  background-color: rgba(196, 255, 222, 0.46);
+}
+
+.dashed {
+  text-decoration: dashed underline;
+}
